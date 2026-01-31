@@ -6,7 +6,7 @@ const projects = [
     },
 
     {
-        title: "FiveM HUD System",
+        title: "TEngine",
         description: "TEngine was made easy to config. This resource was made in the standalone framework",
         github: "https://github.com/dummy3344434/TEngine/releases/tag/V0.0.2"
     },
