@@ -1,0 +1,136 @@
+/* ===== Body & Global ===== */
+body {
+    background: #0b0c10;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    background: #111;
+    padding: 50px;
+    text-align: center;
+    border-bottom: 2px solid #1f2833;
+    transition: background 0.3s;
+}
+
+footer {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+/* ===== Navigation Tabs ===== */
+.tabs {
+    text-align: center;
+    background: #15171c;
+    padding: 10px;
+}
+
+.tabButton {
+    background: #111;
+    border: 1px solid #1f2833;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.tabButton:hover {
+    background: #66fcf1;
+    color: black;
+}
+
+.tabButton.active {
+    background: #66fcf1;
+    color: black;
+}
+
+/* ===== Sections ===== */
+.tabContent {
+    display: none;
+    padding: 40px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.tabContent.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===== Project Cards ===== */
+#projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.project {
+    background: #15171c;
+    border: 1px solid #1f2833;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.2);
+    background: #1f2833;
+}
+
+.project h3 {
+    color: #66fcf1;
+    transition: color 0.3s;
+}
+
+.project p {
+    color: #c5c6c7;
+}
+
+.project a {
+    color: #45a29e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #66fcf1;
+}
+
+/* ===== Section Titles ===== */
+h2 {
+    color: #66fcf1;
+}
+
+/* ===== Nav Links (Optional) ===== */
+nav {
+    text-align: center;
+    background: #15171c;
+    padding: 15px;
+}
+
+nav a {
+    color: #66fcf1;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #45a29e;
+}

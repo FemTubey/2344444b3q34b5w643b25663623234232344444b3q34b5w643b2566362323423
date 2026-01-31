@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tubeys Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Tubey</h1>
+    <p>FiveM Developer – Lua | UI | Scripts</p>
+</header>
+
+<div class="tabs">
+    <button class="tabButton active" onclick="openTab('about')">About</button>
+    <button class="tabButton" onclick="openTab('projects')">Projects</button>
+    <button class="tabButton" onclick="openTab('contact')">Contact</button>
+</div>
+
+<div id="about" class="tabContent active">
+    <h2>About Me</h2>
+    <p>
+        I develop custom FiveM resources including scripts, interfaces,
+        server tools, and optimizations for Standalone Servers.
+    </p>
+</div>
+
+<div id="projects" class="tabContent">
+    <h2>Projects</h2>
+    <div id="projectContainer"></div>
+</div>
+
+<div id="contact" class="tabContent">
+    <h2>Contact</h2>
+    <p>Discord: tubey530</p>
+    <p>Email: paroaustin97@gmail.com</p>
+</div>
+
+<footer>
+    <p>© 2026 Tubey – FiveM Development</p>
+</footer>
+
+<script src="projects.js"></script>
+<script src="tabs.js"></script>
+
+</body>
+</html>
