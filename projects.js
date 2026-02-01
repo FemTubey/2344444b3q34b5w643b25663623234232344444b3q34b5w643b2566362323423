@@ -38,7 +38,7 @@ function loadProjects() {
         <div class="project">
             <h3>${p.title}</h3>
             <p>${p.description}</p>
-            <a href="${p.github}" target="_blank">View on GitHub</a>
+            <a href="${p.github}" target="_blank">Download</a>
         </div>
         `;
     });
